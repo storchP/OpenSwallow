@@ -142,7 +142,6 @@ h1 {
     padding: 0;
     overflow: hidden;
     opacity: 0;
-    transition: 0.8s;
 }
 
 /*クリックで中身表示*/
@@ -157,7 +156,7 @@ h1 {
 .accbox label {
     display: block;
 /*    margin: 1.5px 0; */
-    margin: 30px 10px 0px 290px;
+    margin: 2.5% 1% 0px 50%;
     padding : 11px 12px;
     color :#FFFFFF;
     font-weight: bold;
@@ -224,3 +223,5 @@ h1 {
 .link-lavel a:visited{ color:#FFFFFF; text-decoration: none; }
 .link-lavel a:hover{ color:#FFFFFF; text-decoration: none; }
 
+/* 画面ヘッダー */
+.gadget-head{  background-color: #000000; margin: 10px; padding: 10px;}

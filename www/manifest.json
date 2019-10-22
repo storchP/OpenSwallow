@@ -1,6 +1,6 @@
 {
-  "name": "PWA App",
-  "short_name": "PWA App",
+  "name": "Open Swallow1.1",
+  "short_name": "Open Swallow1.1",
   "description": "This is a PWA Minimum Template",
   "icons": [{
     "src": "images/icons/icon-48x48.png",
@@ -39,12 +39,12 @@
     "sizes": "256x256",
     "type": "image/png"
   }],
-  "lang": "en",
+  "lang": "ja",
   "dir": "ltr",
   "scope": "./",
   "start_url": "index.html",
-  "display": "standalone",
-  "orientation": "any",
+  "display":      "standalone", /* Could be "fullscreen", "standalone", "minimal-ui", or "browser" */
+  "orientation":  "landscape", /* Could be "landscape" or "portrait" */
   "background_color": "#00629d",
   "theme_color": "#00629d",
   "prefer_related_applications": false
