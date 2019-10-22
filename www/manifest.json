@@ -44,8 +44,9 @@
   "scope": "./",
   "start_url": "index.html",
   "display": "standalone",
-  "orientation": "any",
+  "orientation": "landscape",
   "background_color": "#00629d",
   "theme_color": "#00629d",
   "prefer_related_applications": false
+
 }

@@ -17,39 +17,47 @@
 </head>
 <body>
 <div class="wrap">
-<!-- 背景用の動画ファイル -->
-<video id="bg-video" src="../asset/bgv.mp4"  autoplay loop width="120%" height="120%"></video>
+  <!-- 背景用の動画ファイル -->
+  <video id="bg-video" src="../asset/bgv.mp4"  autoplay loop width="100%" height="100%"></video>
+  <!-- 背景の上に表示させたいコンテンツ -->
+    <!-- accbox入れ子 -->
+
+    <div class="accbox" >
+      <!--ラベル1-->
+      <label for="label4">エースコンバット７ DLC5-PV</label>
+      <input type="checkbox" id="label4" class="cssacc" />
+      <div class="accshow">
+      <!--ここに隠す中身-->
+        <p>
+        <!-- エースコンバット7をストリーミング -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7iFaiHRyrEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
 
 
-
-</div>
-<!-- 背景の上に表示させたいコンテンツ -->
-      <!-- accbox入れ子 -->
-      <div class="accbox" >
-          <!--ラベル1-->
-          <label for="label1">UGSFアーカイブス STAR BLADE OPERATION BLUE PLANET</label>
-          <input type="checkbox" id="label1" class="cssacc" />
-          <div class="accshow">
-            <!--ここに隠す中身-->
-            <p>
-              <!-- UGSFアーカイブスをストリーミング -->
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/leT3saYfZr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </p>
-          </div>
-          <!--//ラベル2-->
-          <!--//ラベル1-->
-        <!--ラベル2-->
-          <label for="label2">UGSFアーカイブス NewSpaceOrder</label>
-          <input type="checkbox" id="label2" class="cssacc" />
-          <div class="accshow">
-            <!--ここに隠す中身-->
-            <p>
-              <!-- UGSFアーカイブスをストリーミング -->
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/6095fGedTrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </p>
-          </div>
-          <!--//ラベル2-->
-        <!--ラベル3-->
+    
+      <!--ラベル1-->
+      <label for="label1">UGSFアーカイブス STAR BLADE OPERATION BLUE PLANET</label>
+      <input type="checkbox" id="label1" class="cssacc" />
+      <div class="accshow">
+      <!--ここに隠す中身-->
+        <p>
+        <!-- UGSFアーカイブスをストリーミング -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/leT3saYfZr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
+      <!--ラベル2-->
+      <label for="label2">UGSFアーカイブス NewSpaceOrder</label>
+      <input type="checkbox" id="label2" class="cssacc" />
+      <div class="accshow">
+      <!--ここに隠す中身-->
+        <p>
+        <!-- UGSFアーカイブスをストリーミング -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6095fGedTrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
+      <!--//ラベル2-->
+      <!-- ラベル3 -->
           <label for="label3">UGSFアーカイブス Making of GALAXIAN^3</label>
           <input type="checkbox" id="label3" class="cssacc" />
           <div class="accshow">
@@ -61,7 +69,8 @@
           </div>
           <!--//ラベル3-->
       </div><!--//.accbox-->
-   </div>
+    </div>
+</div>
 
 
 

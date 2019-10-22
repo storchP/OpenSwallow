@@ -110,7 +110,7 @@ h1 {
 .accbox {
     margin: 2em 0;
     padding: 0;
-    max-width: 90%;/*最大幅*/
+    max-width: 80%;/*最大幅*/
 }
 
 /*ラベル*/
@@ -122,7 +122,7 @@ h1 {
     font-weight: bold;
     background :#a4cbf3;
     cursor :pointer;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 /*ラベルホバー時*/
@@ -197,8 +197,8 @@ h1 {
  position: fixed;
  right: 0;
  bottom: 0;
- min-width: 100%;
- min-height: 100%;
+ min-width: auto;
+ min-height: auto;
  width: auto;
  height: auto;
  z-index: -100;
