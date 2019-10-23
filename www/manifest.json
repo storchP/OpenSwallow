@@ -43,8 +43,6 @@
   "dir": "ltr",
   "scope": "./",
   "start_url": "index.html",
-  "display":      "standalone", /* Could be "fullscreen", "standalone", "minimal-ui", or "browser" */
-  "orientation":  "landscape", /* Could be "landscape" or "portrait" */
   "background_color": "#00629d",
   "theme_color": "#00629d",
   "prefer_related_applications": false
