@@ -125,6 +125,7 @@ h1 {
     padding : 11px 12px;
     color :#eb9963;
     font-weight: bold;
+    font-size:small;
     background :#eb9963;
     cursor :pointer;
     transition: all 1s;
@@ -161,7 +162,7 @@ h1 {
 .accbox label {
     display: block;
 /*    margin: 1.5px 0; */
-    margin: 2.5% 1% 0px 63%;
+    margin: 2.5% 1% 0px 46%;
     padding : 2% 5% 2% 5%;
     color :#FFFFFF;
     font-weight: bold;
@@ -231,3 +232,5 @@ h1 {
 
 /* 画面ヘッダー */
 .gadget-head{  background-color: #000000; margin: 10px; padding: 10px;}
+
+
