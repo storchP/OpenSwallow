@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0% 3% 3% 3%;
     background-color: #ccc;
     font-family: 'Helvetica';
 }
@@ -105,6 +105,11 @@ h1 {
   outline: 0;
 }
 
+/* 背景座標 */
+.wrap {
+  margin:0px;
+}
+
 /* アコーディオンインターフェース */
 /*ボックス全体*/
 .accbox {
@@ -118,9 +123,9 @@ h1 {
     display: block;
     margin: 1.5px 0;
     padding : 11px 12px;
-    color :#2f8fcf;
+    color :#eb9963;
     font-weight: bold;
-    background :#a4cbf3;
+    background :#eb9963;
     cursor :pointer;
     transition: all 1s;
     max-width:60%;
@@ -128,7 +133,7 @@ h1 {
 
 /*ラベルホバー時*/
 .accbox label:hover {
-    background :#85baef;
+    background :#eb9963;
 }
 
 /*チェックは隠す*/
@@ -156,8 +161,8 @@ h1 {
 .accbox label {
     display: block;
 /*    margin: 1.5px 0; */
-    margin: 2.5% 1% 0px 50%;
-    padding : 11px 12px;
+    margin: 2.5% 1% 0px 63%;
+    padding : 2% 5% 2% 5%;
     color :#FFFFFF;
     font-weight: bold;
     background :#000000;
@@ -168,7 +173,7 @@ h1 {
 
 /*ラベルホバー時*/
 .accbox label:hover {
-    background :#85baef;
+    background :#d37a3f;
 }
 
 /*チェックは隠す*/
@@ -197,10 +202,10 @@ h1 {
 /* ----- 背景用の動画ファイル ----- */
 #bg-video{
  position: fixed;
- right: 0;
- bottom: 0;
- min-width: auto;
- min-height: auto;
+ right: 0%;
+ bottom: 0%;
+ min-width: 100%;
+ min-height: 100%;
  width: auto;
  height: auto;
  z-index: -100;
@@ -212,6 +217,7 @@ h1 {
  z-index: 2; /*必ず必要*/
  display: flex;
  width: 100%;
+
  justify-content: center;
  align-items: center;
  text-align:center;
