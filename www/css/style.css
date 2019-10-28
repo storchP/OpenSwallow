@@ -150,18 +150,10 @@ h1 {
     opacity: 0;
 }
 
-/*クリックで中身表示*/
-/*ボックス全体*/
-.accbox {
-    margin: 2em 0;
-    padding: 0;
-    max-width: 100%;/*最大幅*/
-}
 
 /*ラベル*/
 .accbox label {
     display: block;
-/*    margin: 1.5px 0; */
     margin: 2.5% 1% 0px 46%;
     padding : 2% 5% 2% 5%;
     color :#FFFFFF;
@@ -174,6 +166,7 @@ h1 {
 
 /*ラベルホバー時*/
 .accbox label:hover {
+    display: block;
     background :#d37a3f;
 }
 
@@ -181,24 +174,6 @@ h1 {
 .accbox input {
     display: none;
 }
-
-/*中身を非表示にしておく*/
-.accbox .accshow {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.cssacc:checked + .accshow {
-    height: auto;
-    padding: 5px;
-    background: #eaeaea;
-    opacity: 1;
-}
-
 
 /* ----- 背景用の動画ファイル ----- */
 #bg-video{
@@ -234,27 +209,37 @@ h1 {
 .gadget-head{  background-color: #000000; margin: 10px; padding: 10px;}
 
 
-/* ボタンCSS */
-.btn-flat-simple {
+/* ボタンリンク */
+.btn-flat-logo {
   position: relative;
   display: inline-block;
-  font-weight: bold;
-  padding: 0.25em 0.5em;
+  width: 100%;
+  font-size: large;
+
+  margin: 0px 0px 2.5%;
+  padding: 1% 1% 1.5% 1%;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #FFF;
   background: #000000;
   transition: .4s;
 }
-
-.btn-flat-simple:hover {
-  background: #00bcd4;
-    color: white;
-    display: block;
-    margin: 2.5% 1% 0px 46%;
-    padding : 2% 5% 2% 5%;
-    font-weight: bold;
-    background :#000000;
-    cursor :pointer;
-    transition: all 0.5s;
+/* ボタンリンクホバー */
+.btn-flat-logo:hover {
+  background: #ff7c4d;
+}
+/* メインメニュー */
+#mainMenu{
+  overflow: auto; -webkit-overflow-scrolling: touch;
 }
 
+/* 左側コンテンツ */
+#left-contents {
+  float: left;
+  width: 45%;
+}
+
+/* 右側コンテンツ */
+#right-contents {
+  float:right;
+  width: 50%;
+}
