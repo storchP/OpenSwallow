@@ -6,11 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
     <script src="components/loader.js"></script>
-    <script>
-        //
-        // TODO: Write JavaScript code here
-        //
-    </script>
+  <script type="text/javascript" src="vendor/common.js"></script>
 </head>
 <body>
     <!-- TODO: Please edit here -->
@@ -21,17 +17,12 @@
       <div style="lightblue;padding:1%">
         <span>起動画面の左サイドカラーを指定</span><br>
         <form action="#" id="side-color-form" name="side-color-form">
-          <input type="color" name="side-color" id="side-color" value="#000000">
+          <input type="color" name="side-color" id="side-color">
+          <input type="button" onClick=colorSet("") value="COLOR SET">
         </form>
       </div>
 
-      <!-- ベースカラー -->
-      <div style="lightblue;padding:1%">
-        <span>起動画面の右ベースカラーを指定</span><br>
-        <form action="#" id="base-color-form" name="base-colors-form">
-          <input type="color" name="base-color" id="base-color"  value="#FFFFFF">
-        </form>
-      </div>
+
 
   </div>  
     

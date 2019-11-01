@@ -1,12 +1,7 @@
 // This is a JavaScript file
 
-/**
- * コンフィグ画面
- */
-// 初期は非表示
-window.onload = function() {
-  document.getElementById("config").style.visibility ="hidden";
-}
+
+
 
 
 // config open
@@ -17,12 +12,12 @@ function openConfigWindow() {
 /**
  * リンク
  */
-function callURL(URL) 
+function callURL(URL)
   {
     window.open(URL, null, 'width=2000,height=3000,scrollbars=yes');
   };
 
-function callCONFIG(URL) 
+function callCONFIG(URL)
   {
     window.open(URL, null, 'width=1900,height=1080,scrollbars=yes');
   };
@@ -59,9 +54,10 @@ function localStorageClear() {
 /*
  * DOMから値を取る
 */
- function onColorButtonClick(KEY) {
-      target = document.getElementById("output");
-      target.innerText = document.forms.id_form1.id_textBox1.value;
-      alert(target.innerText);
-      localStorageSetItem(KEY,target.innerText);
-  }
+
+function colorSet() {
+    var setColor  = $('#side-color').val();
+    //sideColor = document.forms.side-color-form.side-color;
+    alert(setColor);
+    localStorageSetItem("COLOR", setColor);
+}
