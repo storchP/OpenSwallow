@@ -1,9 +1,5 @@
 // This is a JavaScript file
 
-
-
-
-
 // config open
 function openConfigWindow() {
   config.style.visibility ="visible";
@@ -55,9 +51,11 @@ function localStorageClear() {
  * DOMから値を取る
 */
 
+// 左サイドカラー
 function colorSet() {
     var setColor  = $('#side-color').val();
-    //sideColor = document.forms.side-color-form.side-color;
     alert(setColor);
     localStorageSetItem("COLOR", setColor);
 }
+
+// 左サイドロゴ
