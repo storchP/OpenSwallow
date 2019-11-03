@@ -1,10 +1,3 @@
-// This is a JavaScript file
-
-// config open
-function openConfigWindow() {
-  config.style.visibility ="visible";
-}
-
 /**
  * リンク
  */
@@ -21,6 +14,12 @@ function callCONFIG(URL)
 /**
  * ローカルストレージ
  */
+// カラー設定
+function colorSet() {
+    var setColor  = $('#side-color').val();
+    alert(setColor);
+    localStorageSetItem("COLOR", setColor);
+}
 
 // set
 function localStorageSetItem(KEY, value) {
@@ -32,7 +31,6 @@ function localStorageSetItem(KEY, value) {
 function localStorageGetItem(KEY) {
     var item = localStorage.getItem(KEY);
     alert(item);
-
 }
 
 
