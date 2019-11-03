@@ -59,3 +59,7 @@ function colorSet() {
 }
 
 // 左サイドロゴ
+function logoSet () {
+    var setLogo  = $('#side-logo').val(); 
+    var logodata = localStorageSetItem("LOGO");
+}
