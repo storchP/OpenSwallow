@@ -35,17 +35,6 @@ function localStorageGetItem(KEY) {
 
 }
 
-// delete
-function localStorageRemoveItem() {
-    localStorage.removeItem(KEY);
-    document.getElementById("content").innerHTML = "";
-}
-
-// delete all
-function localStorageClear() {
-    localStorage.clear();
-    document.getElementById("content").innerHTML = "";
-}
 
 /*
  * DOMから値を取る
