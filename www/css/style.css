@@ -3,6 +3,8 @@ body {
     padding: 0% 3% 3% 3%;
     background-color: #ccc;
     font-family: 'Helvetica';
+    overflow-x: hidden;
+    
 }
 
 h1 {
@@ -108,6 +110,7 @@ h1 {
 /* 背景座標 */
 .wrap {
   margin:0px;
+  overflow-x: hidden;
 }
 
 /* アコーディオンインターフェース */
@@ -116,6 +119,7 @@ h1 {
     margin: 2em 0;
     padding: 10px;
     max-width: 100%;/*最大幅*/
+    overflow-x: hidden;
 }
 
 /*ラベル*/
@@ -235,7 +239,7 @@ h1 {
 /* 左側コンテンツ */
 #left-contents {
   float: left;
-  width: 45%;
+  width: 35%;
 }
 
 /* 右側コンテンツ */

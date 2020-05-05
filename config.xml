@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="com.storch.openSwallow" version="1.5.0" android-versionCode="150">
-  <name>Open Swallow Alpha1.5.0</name>
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.storch.SmartSwallow" version="1.0.0" android-versionCode="300">
+  <name>スマートスワロー</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
@@ -89,13 +89,13 @@
     <icon src="/res/android/icon/xhdpi.png" density="xhdpi"/>
     <icon src="/res/android/icon/xxhdpi.png" density="xxhdpi"/>
     <icon src="/res/android/icon/xxxhdpi.png" density="xxxhdpi"/>
+    <splash src="/res/android/screen/splash-mdpi.9.png" density="mdpi"/>
     <splash src="/res/android/screen/splash-port-ldpi.9.png" density="port-ldpi"/>
     <splash src="/res/android/screen/splash-port-mdpi.9.png" density="port-mdpi"/>
     <splash src="/res/android/screen/splash-port-hdpi.9.png" density="port-hdpi"/>
     <splash src="/res/android/screen/splash-port-xhdpi.9.png" density="port-xhdpi"/>
     <splash src="/res/android/screen/splash-port-xxhdpi.9.png" density="port-xxhdpi"/>
     <splash src="/res/android/screen/splash-port-xxxhdpi.9.png" density="port-xxxhdpi"/>
-    <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
   </platform>
   <platform name="electron">
     <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
@@ -106,15 +106,15 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="f96c3363-f1fc-dab4-d9a3-785315beefc1"/>
-  <preference name="DisallowOverscroll" value="false"/>
   <preference name="StatusBarBackgroundColor" value="#000000"/>
   <preference name="StatusBarStyle" value="lightcontent"/>
   <preference name="AndroidPersistentFileLocation" value="Internal"/>
+  <preference name="DisallowOverscroll" value="false"/>
   <access origin="*"/>
   <preference name="KeepRunning" value="true"/>
   <preference name="monaca:AndroidIsPackageNameSeparate" value="true"/>
   <preference name="DisallowOverscroll" value="false"/>
-  <preference name="Orientation" value="default"/>
-  <preference name="SplashScreenDelay" value="5000"/>
-  <preference name="Fullscreen" value="true"/>
+  <preference name="Orientation" value="landscape"/>
+  <preference name="SplashScreenDelay" value="1000"/>
+  <preference name="Fullscreen" value="false"/>
 </widget>

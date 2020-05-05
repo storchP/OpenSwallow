@@ -23,8 +23,10 @@ function colorSet() {
 
 // set
 function localStorageSetItem(KEY, value) {
-    localStorage.setItem(KEY, value);
-    alert("Local Storage: データーをセットしました。")
+
+    localStorage.setItem(KEY, value['result']);
+    alert("Local Storage: データーをセットしました。");
+    alert(value['result']);
 }
 
 // get
