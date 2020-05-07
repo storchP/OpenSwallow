@@ -3,5 +3,6 @@
     "framework_version": "3.5",
     "xcode_version": "10.2.1",
     "title-ja": "はじめてのMonacaアプリ",
-    "title-en": "Hello Monaca!"
+    "title-en": "Hello Monaca!",
+    "cordova_android_platform": "8.0.0"
 }
